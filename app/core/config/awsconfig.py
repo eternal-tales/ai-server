@@ -64,5 +64,4 @@ class AwsClient():
             print(e)
 
         else:
-            print("dynamodb connected!")
             return s3
