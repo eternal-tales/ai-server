@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "aiserver"
+version = "0.1.0"
+description = ""
+authors = ["Changmin Kim <ckd29672@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.109.0"
+uvicorn = "^0.27.0.post1"
+openai = "^1.10.0"
+boto3 = "^1.34.33"
+pyyaml = "^6.0.1"
+opencv-python = "^4.9.0.80"
+numpy = "^1.26.3"
+pillow = "^10.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
